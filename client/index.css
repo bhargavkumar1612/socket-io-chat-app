@@ -1,0 +1,100 @@
+.chatbot-heading-container{
+    background-color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.chatbot-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+.chat-container {
+    padding: 10px;
+    overflow-y: scroll;
+}
+.send-message-container {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.send-message {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 20%;
+    max-width: 60%;
+}
+.recieve-message-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.recieve-message {
+    color: white;
+    background-color: #e57742;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 20%;
+    max-width: 60%;
+}
+.user-input {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 52px;
+    border-width: 0;
+    border-radius: 5px;
+    margin: 8px;
+    margin-right: 2px;
+    padding: 15px;
+}
+.send-msg-btn {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    height: 52px;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 8px;
+    margin-left: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.join-room-btn{
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    height: 52px;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 8px;
+    margin-left: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #323f4b;
+}
+.room-id{
+    background-color: #b2d2f1;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 52px;
+    width: 50%;
+    border-width: 0;
+    border-radius: 5px;
+    margin: 8px;
+    margin-right: 2px;
+    padding: 15px;
+    align-self: center;
+}
